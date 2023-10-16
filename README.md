@@ -1,2 +1,2 @@
 # HTML advocatus-template
-Template Advocatus
+<b>Template</b> Advocatus
