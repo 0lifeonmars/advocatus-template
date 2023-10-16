@@ -1,0 +1,9 @@
+@font-face { font-family: 'Playfair Display'; font-display: swap; font-weight: 400; font-style: normal; src: url(../fonts/playfairdisplay__400_regular.ttf); }
+@font-face { font-family: 'Playfair Display'; font-display: swap; font-weight: 500; font-style: normal; src: url(../fonts/playfairdisplay__500_medium.ttf); }
+@font-face { font-family: 'Playfair Display'; font-display: swap; font-weight: 600; font-style: normal; src: url(../fonts/playfairdisplay__600_semibold.ttf); }
+@font-face { font-family: 'Playfair Display'; font-display: swap; font-weight: 700; font-style: normal; src: url(../fonts/playfairdisplay__700_bold.ttf); }
+
+@font-face { font-family: 'Open Sans'; font-display: swap; font-weight: 400; font-style: normal; src: url(../fonts/opensans__400_regular.ttf); }
+@font-face { font-family: 'Open Sans'; font-display: swap; font-weight: 500; font-style: normal; src: url(../fonts/opensans__500_medium.ttf); }
+@font-face { font-family: 'Open Sans'; font-display: swap; font-weight: 600; font-style: normal; src: url(../fonts/opensans__600_semibold.ttf); }
+@font-face { font-family: 'Open Sans'; font-display: swap; font-weight: 700; font-style: normal; src: url(../fonts/opensans__700_bold.ttf); }
