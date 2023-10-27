@@ -25,14 +25,6 @@
 
     --shadow__faqbox: 0 0 0.203rem 0.203rem #D4AE55;
     --shadow__contact: 0 0 0.625rem 0.313rem #EEEEEE;
-   
-    --url__bg_hero: url(../../images/backs/bg__hero.webp);
-    --url__bg_gradient: url(../../images/backs/bg__blackgradient.png);
-    --url__bg_client: url(../../images/backs/bg__clients.webp);
-    --url__bg_sectionpattern-white: url(../../images/backs/bg__linespattern_white.png);
-    --url__bg_sectionpattern-black: url(../../images/backs/bg__linespattern_black.png);
-    --url__icon_minus: url(../../images/icons/icon__faq_01.png);
-    --url__icon_plus: url(../../images/icons/icon__faq_02.png);
 
     --animation__slideOutUp: slideOutUp 800ms both;
     --animation__slideInDown: slideInDown 800ms both;

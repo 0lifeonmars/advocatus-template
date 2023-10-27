@@ -20,11 +20,11 @@ body {  font-family: 'Open Sans', sans-serif; }
 
 [data-bg-trans="black-01"] { background-color: var(--color__trans_black_01); }
 
-[data-bg-img="hero"] { background-image: var(--url__bg_hero); }
-[data-bg-img="gradient"] { background-image: var(--url__bg_gradient); }
-[data-bg-img="white-section"] { background-image: var(--url__bg_sectionpattern-white);  }
-[data-bg-img="black-section"] { background-image: var(--url__bg_sectionpattern-black); }
-[data-bg-img="clients"] { background-image: var(--url__bg_client); }
+[data-bg-img="hero"] { background-image: url(../../images/backs/bg__hero.webp); }
+[data-bg-img="gradient"] { background-image: url(../../images/backs/bg__blackgradient.png); }
+[data-bg-img="white-section"] { background-image:  url(../../images/backs/bg__linespattern_white.png);  }
+[data-bg-img="black-section"] { background-image: url(../../images/backs/bg__linespattern_black.png); }
+[data-bg-img="clients"] { background-image: url(../../images/backs/bg__clients.webp); }
 .bg_img { background-repeat: no-repeat; background-position: top center; background-size: cover; }
 .bg_section { background-repeat: repeat-y; background-position: top left; }
 
@@ -192,9 +192,9 @@ textarea.input { height: calc(var(--gap) * 10); }
 .faq__container { gap: calc(var(--gap) * 3); }
 .faq__buttons { gap: calc(var(--gap) * 2); }
 .faq__button { padding-bottom: calc(var(--gap) * 1.15); border: none; border-bottom: var(--border) var(--color__primary); font-size: clamp(calc(var(--gap) * 1.125), 3.25vw, calc(var(--gap) * 1.28)); background: none; line-height: 1.3; -webkit-transition: color var(--transitionTime);  transition: color var(--transitionTime); }
-.faq__button::after { content: ''; display: block; width: var(--gap); height: var(--gap); background-image: var(--url__icon_plus); background-repeat: no-repeat; }
+.faq__button::after { content: ''; display: block; width: var(--gap); height: var(--gap); background-image: url(../../images/icons/icon__faq_02.png); background-repeat: no-repeat; }
 .faq__button.active { color: var(--color__primary); -webkit-transition: color var(--transitionTime);  transition: color var(--transitionTime); }
-.faq__button.active::after { background-image: var(--url__icon_minus); -webkit-transition: background-image var(--transitionTime); transition: background-image var(--transitionTime); }
+.faq__button.active::after { background-image: url(../../images/icons/icon__faq_01.png); -webkit-transition: background-image var(--transitionTime); transition: background-image var(--transitionTime); }
 .faqbox { padding-block: calc(var(--padding) * 1.8); padding-inline: calc(var(--padding) * 1.8); border-radius: var(--radius); -webkit-box-shadow: var(--shadow__faqbox); box-shadow: var(--shadow__faqbox); }
 .faqbox a:visited{ color: var(--color__black); }
 
