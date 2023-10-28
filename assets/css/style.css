@@ -20,8 +20,8 @@ body {  font-family: 'Open Sans', sans-serif; }
 
 [data-bg-trans="black-01"] { background-color: var(--color__trans_black_01); }
 
-[data-bg-img="hero"] { background-image: url(../../images/backs/bg__hero.webp); }
-[data-bg-img="gradient"] { background-image: url(../../images/backs/bg__blackgradient.png); }
+[data-bg-img="hero"] { background-image: url('../../images/backs/bg__hero.webp'); }
+[data-bg-img="gradient"] { background-image: url('../../images/backs/bg__blackgradient.png'); }
 [data-bg-img="white-section"] { background-image:  url(../../images/backs/bg__linespattern_white.png);  }
 [data-bg-img="black-section"] { background-image: url(../../images/backs/bg__linespattern_black.png); }
 [data-bg-img="clients"] { background-image: url(../../images/backs/bg__clients.webp); }
